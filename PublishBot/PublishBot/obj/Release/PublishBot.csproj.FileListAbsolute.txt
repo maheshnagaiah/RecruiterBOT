@@ -1,0 +1,144 @@
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Bot Application1.dll.config
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Bot Application1.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Bot Application1.pdb
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Autofac.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Chronic.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Bot.Connector.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Rest.ClientRuntime.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Newtonsoft.Json.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.Net.Http.Formatting.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.Web.Http.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.Web.Http.WebHost.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Autofac.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Bot.Connector.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Rest.ClientRuntime.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Newtonsoft.Json.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.Net.Http.Formatting.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.Web.Http.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\System.Web.Http.WebHost.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\obj\Release\Bot Application1.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\obj\Release\Bot Application1.pdb
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\obj\Release\PublishBot.csprojResolveAssemblyReference.cache
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.Autofac.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.Autofac.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\it\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PublishBot\PublishBot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\obj\Release\PublishBot.csprojResolveAssemblyReference.cache
+D:\DevHack\PublishBot\PublishBot\PublishBot\obj\Release\Bot Application1.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\obj\Release\Bot Application1.pdb
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Bot Application1.dll.config
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Bot Application1.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Bot Application1.pdb
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Autofac.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Chronic.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Bot.Connector.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Newtonsoft.Json.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Net.Http.Formatting.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Web.Http.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Web.Http.WebHost.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Autofac.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Bot.Connector.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Rest.ClientRuntime.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Newtonsoft.Json.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Net.Http.Formatting.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Web.Http.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Web.Http.WebHost.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\obj\Release\PublishBot.csproj.CoreCompileInputs.cache
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Azure.Documents.ServiceInterop.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\DocumentDB.Spatial.Sql.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Azure.Documents.Client.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Azure.Documents.Client.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Data.Edm.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Data.OData.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Data.Services.Client.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Diagnostics.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Storage.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Spatial.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\MonAgentListener.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Data.Edm.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Data.OData.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.Data.Services.Client.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\Microsoft.WindowsAzure.Storage.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\System.Spatial.xml
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\de\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\es\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\it\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\de\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\es\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\fr\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\it\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ja\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ko\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ru\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\de\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\es\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\fr\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\it\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ja\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ko\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\ru\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hans\System.Spatial.resources.dll
+D:\DevHack\PublishBot\PublishBot\PublishBot\bin\zh-Hant\System.Spatial.resources.dll
