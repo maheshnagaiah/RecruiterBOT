@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="MSInterviewBot" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Courses\\Bot\ Framework\ -\ getting\ started\\BOT\ FRAMEWORK\\BOT\ EXAMPLES\\PublishBot\\PublishBot\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Courses\\Bot\ Framework\ -\ getting\ started\\BOT\ FRAMEWORK\\BOT\ EXAMPLES\\PublishBot\\PublishBot\\obj\\Release\\Package\\PackageTmp$" />
-  </parameter>
-</parameters>
