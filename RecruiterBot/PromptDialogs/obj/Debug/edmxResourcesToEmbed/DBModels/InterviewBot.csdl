@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InterviewBotModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="UserJobMapping">
+    <Key>
+      <PropertyRef Name="UserJobMappingID" />
+    </Key>
+    <Property Name="UserJobMappingID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int64" />
+    <Property Name="JobListings" Type="Int64" />
+    <Property Name="InterviewStatus" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="InterviewScheduledDate" Type="DateTime" Precision="3" />
+    <Property Name="PointOfContact" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserChannelId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ChannelId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Degree" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CGPA" Type="Int32" />
+    <Property Name="ExpertiseInTechnology" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CurrentCompany" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Experience" Type="Int32" />
+    <Property Name="Resume" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="JobCategory">
+    <Key>
+      <PropertyRef Name="JobCategory1" />
+    </Key>
+    <Property Name="JobCategory1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JobListing">
+    <Key>
+      <PropertyRef Name="JobListings" />
+      <PropertyRef Name="JobID" />
+      <PropertyRef Name="JobCategory" />
+      <PropertyRef Name="JobTechnology" />
+      <PropertyRef Name="StandardTitle" />
+      <PropertyRef Name="Status" />
+    </Key>
+    <Property Name="JobListings" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="JobID" Type="Int64" Nullable="false" />
+    <Property Name="Experience" Type="Int32" />
+    <Property Name="CostToCompany" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="JobCategory" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="JobTechnology" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StandardTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EmploymentType" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="JobSummary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="JobDescription" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="JobTechnology">
+    <Key>
+      <PropertyRef Name="JobTechnology1" />
+    </Key>
+    <Property Name="JobTechnology1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TechnologyName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="InterviewBotEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserJobMappings" EntityType="Self.UserJobMapping" />
+    <EntitySet Name="UserProfiles" EntityType="Self.UserProfile" />
+    <EntitySet Name="JobCategories" EntityType="Self.JobCategory" />
+    <EntitySet Name="JobListings" EntityType="Self.JobListing" />
+    <EntitySet Name="JobTechnologies" EntityType="Self.JobTechnology" />
+    <FunctionImport Name="getJobDetails" ReturnType="Collection(InterviewBotModel.getJobDetails_Result)">
+      <Parameter Name="JobTechnology" Mode="In" Type="String" />
+      <Parameter Name="JobCategory" Mode="In" Type="String" />
+      <Parameter Name="Experience" Mode="In" Type="Int32" />
+      <Parameter Name="ErrorMessage" Mode="InOut" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertUserDetails">
+      <Parameter Name="UserID" Mode="In" Type="Int64" />
+      <Parameter Name="ChannelID" Mode="In" Type="Int64" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="Experience" Mode="In" Type="Int32" />
+      <Parameter Name="CGPA" Mode="In" Type="String" />
+      <Parameter Name="ExpertiseInTechnology" Mode="In" Type="String" />
+      <Parameter Name="CurrentCompany" Mode="In" Type="String" />
+      <Parameter Name="Resume" Mode="In" Type="Binary" />
+      <Parameter Name="userDetails" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertUserJobMapping">
+      <Parameter Name="UserDetails" Mode="In" Type="Int64" />
+      <Parameter Name="JobListings" Mode="In" Type="Int64" />
+      <Parameter Name="InterviewScheduledTime" Mode="In" Type="DateTime" />
+      <Parameter Name="PointofContact" Mode="In" Type="String" />
+      <Parameter Name="userJobMapping" Mode="InOut" Type="Int32" />
+      <Parameter Name="errorMessage" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateStatusForCancelledApplication">
+      <Parameter Name="UserJobMapping" Mode="In" Type="Int64" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="getJobDetails_Result">
+    <Property Type="Int64" Name="JobListings" Nullable="false" />
+    <Property Type="Int64" Name="JobID" Nullable="false" />
+    <Property Type="Int32" Name="Experience" Nullable="true" />
+    <Property Type="String" Name="CostToCompany" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="JobCategory" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="JobTechnology" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="StandardTitle" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Status" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="EmploymentType" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="JobSummary" Nullable="true" />
+    <Property Type="Binary" Name="JobDescription" Nullable="true" />
+  </ComplexType>
+</Schema>

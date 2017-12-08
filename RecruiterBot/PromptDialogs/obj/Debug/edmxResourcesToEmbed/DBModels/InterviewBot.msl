@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InterviewBotModelStoreContainer" CdmEntityContainer="InterviewBotEntities">
+    <EntitySetMapping Name="UserJobMappings">
+      <EntityTypeMapping TypeName="InterviewBotModel.UserJobMapping">
+        <MappingFragment StoreEntitySet="UserJobMapping">
+          <ScalarProperty Name="UserJobMappingID" ColumnName="UserJobMappingID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="JobListings" ColumnName="JobListings" />
+          <ScalarProperty Name="InterviewStatus" ColumnName="InterviewStatus" />
+          <ScalarProperty Name="InterviewScheduledDate" ColumnName="InterviewScheduledDate" />
+          <ScalarProperty Name="PointOfContact" ColumnName="PointOfContact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfiles">
+      <EntityTypeMapping TypeName="InterviewBotModel.UserProfile">
+        <MappingFragment StoreEntitySet="UserProfile">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserChannelId" ColumnName="UserChannelId" />
+          <ScalarProperty Name="ChannelId" ColumnName="ChannelId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="CGPA" ColumnName="CGPA" />
+          <ScalarProperty Name="ExpertiseInTechnology" ColumnName="ExpertiseInTechnology" />
+          <ScalarProperty Name="CurrentCompany" ColumnName="CurrentCompany" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="Resume" ColumnName="Resume" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobCategories">
+      <EntityTypeMapping TypeName="InterviewBotModel.JobCategory">
+        <MappingFragment StoreEntitySet="JobCategory">
+          <ScalarProperty Name="JobCategory1" ColumnName="JobCategory" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobListings">
+      <EntityTypeMapping TypeName="InterviewBotModel.JobListing">
+        <MappingFragment StoreEntitySet="JobListings">
+          <ScalarProperty Name="JobListings" ColumnName="JobListings" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="CostToCompany" ColumnName="CostToCompany" />
+          <ScalarProperty Name="JobCategory" ColumnName="JobCategory" />
+          <ScalarProperty Name="JobTechnology" ColumnName="JobTechnology" />
+          <ScalarProperty Name="StandardTitle" ColumnName="StandardTitle" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EmploymentType" ColumnName="EmploymentType" />
+          <ScalarProperty Name="JobSummary" ColumnName="JobSummary" />
+          <ScalarProperty Name="JobDescription" ColumnName="JobDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobTechnologies">
+      <EntityTypeMapping TypeName="InterviewBotModel.JobTechnology">
+        <MappingFragment StoreEntitySet="JobTechnology">
+          <ScalarProperty Name="JobTechnology1" ColumnName="JobTechnology" />
+          <ScalarProperty Name="TechnologyName" ColumnName="TechnologyName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="getJobDetails" FunctionName="InterviewBotModel.Store.getJobDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InterviewBotModel.getJobDetails_Result">
+          <ScalarProperty Name="JobListings" ColumnName="JobListings" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="CostToCompany" ColumnName="CostToCompany" />
+          <ScalarProperty Name="JobCategory" ColumnName="JobCategory" />
+          <ScalarProperty Name="JobTechnology" ColumnName="JobTechnology" />
+          <ScalarProperty Name="StandardTitle" ColumnName="StandardTitle" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EmploymentType" ColumnName="EmploymentType" />
+          <ScalarProperty Name="JobSummary" ColumnName="JobSummary" />
+          <ScalarProperty Name="JobDescription" ColumnName="JobDescription" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="InsertUserDetails" FunctionName="InterviewBotModel.Store.InsertUserDetails" />
+    <FunctionImportMapping FunctionImportName="InsertUserJobMapping" FunctionName="InterviewBotModel.Store.InsertUserJobMapping" />
+    <FunctionImportMapping FunctionImportName="UpdateStatusForCancelledApplication" FunctionName="InterviewBotModel.Store.UpdateStatusForCancelledApplication" />
+  </EntityContainerMapping>
+</Mapping>

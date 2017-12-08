@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="InterviewBotModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'InterviewBot.dbo.JobCategory' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="JobCategory">
+          <Key>
+            <PropertyRef Name="JobCategory" />
+          </Key>
+          <Property Name="JobCategory" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'InterviewBot.dbo.JobListings' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="JobListings">
+          <Key>
+            <PropertyRef Name="JobListings" />
+            <PropertyRef Name="JobID" />
+            <PropertyRef Name="JobCategory" />
+            <PropertyRef Name="JobTechnology" />
+            <PropertyRef Name="StandardTitle" />
+            <PropertyRef Name="Status" />
+          </Key>
+          <Property Name="JobListings" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="JobID" Type="bigint" Nullable="false" />
+          <Property Name="Experience" Type="int" />
+          <Property Name="CostToCompany" Type="nvarchar" MaxLength="100" />
+          <Property Name="JobCategory" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="JobTechnology" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="StandardTitle" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Location" Type="nvarchar" MaxLength="500" />
+          <Property Name="Status" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="EmploymentType" Type="nvarchar" MaxLength="200" />
+          <Property Name="JobSummary" Type="nvarchar(max)" />
+          <Property Name="JobDescription" Type="varbinary(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'InterviewBot.dbo.JobTechnology' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="JobTechnology">
+          <Key>
+            <PropertyRef Name="JobTechnology" />
+          </Key>
+          <Property Name="JobTechnology" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TechnologyName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="UserJobMapping">
+          <Key>
+            <PropertyRef Name="UserJobMappingID" />
+          </Key>
+          <Property Name="UserJobMappingID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserID" Type="bigint" />
+          <Property Name="JobListings" Type="bigint" />
+          <Property Name="InterviewStatus" Type="nvarchar" MaxLength="100" />
+          <Property Name="InterviewScheduledDate" Type="datetime" />
+          <Property Name="PointOfContact" Type="nvarchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserChannelId" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="ChannelId" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="100" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+          <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmailID" Type="nvarchar" MaxLength="50" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="20" />
+          <Property Name="Degree" Type="nvarchar" MaxLength="20" />
+          <Property Name="CGPA" Type="int" />
+          <Property Name="ExpertiseInTechnology" Type="nvarchar" MaxLength="50" />
+          <Property Name="CurrentCompany" Type="nvarchar" MaxLength="50" />
+          <Property Name="Experience" Type="int" />
+          <Property Name="Resume" Type="varbinary(max)" />
+        </EntityType>
+        <Function Name="getJobDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="JobTechnology" Type="nvarchar" Mode="In" />
+          <Parameter Name="JobCategory" Type="nvarchar" Mode="In" />
+          <Parameter Name="Experience" Type="int" Mode="In" />
+          <Parameter Name="ErrorMessage" Type="nvarchar" Mode="InOut" />
+        </Function>
+        <Function Name="InsertUserDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserID" Type="bigint" Mode="In" />
+          <Parameter Name="ChannelID" Type="bigint" Mode="In" />
+          <Parameter Name="Username" Type="nvarchar" Mode="In" />
+          <Parameter Name="Experience" Type="int" Mode="In" />
+          <Parameter Name="CGPA" Type="nvarchar" Mode="In" />
+          <Parameter Name="ExpertiseInTechnology" Type="nvarchar" Mode="In" />
+          <Parameter Name="CurrentCompany" Type="nvarchar" Mode="In" />
+          <Parameter Name="Resume" Type="varbinary(max)" Mode="In" />
+          <Parameter Name="userDetails" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="InsertUserJobMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserDetails" Type="bigint" Mode="In" />
+          <Parameter Name="JobListings" Type="bigint" Mode="In" />
+          <Parameter Name="InterviewScheduledTime" Type="datetime" Mode="In" />
+          <Parameter Name="PointofContact" Type="nvarchar" Mode="In" />
+          <Parameter Name="userJobMapping" Type="int" Mode="InOut" />
+          <Parameter Name="errorMessage" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="UpdateStatusForCancelledApplication" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserJobMapping" Type="bigint" Mode="In" />
+        </Function>
+        <EntityContainer Name="InterviewBotModelStoreContainer">
+          <EntitySet Name="UserJobMapping" EntityType="Self.UserJobMapping" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JobCategory" EntityType="Self.JobCategory" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [JobCategory].[JobCategory] AS [JobCategory], 
+    [JobCategory].[CategoryName] AS [CategoryName]
+    FROM [dbo].[JobCategory] AS [JobCategory]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="JobListings" EntityType="Self.JobListings" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [JobListings].[JobListings] AS [JobListings], 
+    [JobListings].[JobID] AS [JobID], 
+    [JobListings].[Experience] AS [Experience], 
+    [JobListings].[CostToCompany] AS [CostToCompany], 
+    [JobListings].[JobCategory] AS [JobCategory], 
+    [JobListings].[JobTechnology] AS [JobTechnology], 
+    [JobListings].[StandardTitle] AS [StandardTitle], 
+    [JobListings].[Location] AS [Location], 
+    [JobListings].[Status] AS [Status], 
+    [JobListings].[EmploymentType] AS [EmploymentType], 
+    [JobListings].[JobSummary] AS [JobSummary], 
+    [JobListings].[JobDescription] AS [JobDescription]
+    FROM [dbo].[JobListings] AS [JobListings]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="JobTechnology" EntityType="Self.JobTechnology" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [JobTechnology].[JobTechnology] AS [JobTechnology], 
+    [JobTechnology].[TechnologyName] AS [TechnologyName]
+    FROM [dbo].[JobTechnology] AS [JobTechnology]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="InterviewBotModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="UserJobMapping">
+          <Key>
+            <PropertyRef Name="UserJobMappingID" />
+          </Key>
+          <Property Name="UserJobMappingID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Int64" />
+          <Property Name="JobListings" Type="Int64" />
+          <Property Name="InterviewStatus" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="InterviewScheduledDate" Type="DateTime" Precision="3" />
+          <Property Name="PointOfContact" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserChannelId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ChannelId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Degree" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="CGPA" Type="Int32" />
+          <Property Name="ExpertiseInTechnology" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CurrentCompany" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Experience" Type="Int32" />
+          <Property Name="Resume" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="JobCategory">
+          <Key>
+            <PropertyRef Name="JobCategory1" />
+          </Key>
+          <Property Name="JobCategory1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="JobListing">
+          <Key>
+            <PropertyRef Name="JobListings" />
+            <PropertyRef Name="JobID" />
+            <PropertyRef Name="JobCategory" />
+            <PropertyRef Name="JobTechnology" />
+            <PropertyRef Name="StandardTitle" />
+            <PropertyRef Name="Status" />
+          </Key>
+          <Property Name="JobListings" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="JobID" Type="Int64" Nullable="false" />
+          <Property Name="Experience" Type="Int32" />
+          <Property Name="CostToCompany" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="JobCategory" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="JobTechnology" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="StandardTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Location" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EmploymentType" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="JobSummary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="JobDescription" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="JobTechnology">
+          <Key>
+            <PropertyRef Name="JobTechnology1" />
+          </Key>
+          <Property Name="JobTechnology1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TechnologyName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="InterviewBotEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="UserJobMappings" EntityType="Self.UserJobMapping" />
+          <EntitySet Name="UserProfiles" EntityType="Self.UserProfile" />
+          <EntitySet Name="JobCategories" EntityType="Self.JobCategory" />
+          <EntitySet Name="JobListings" EntityType="Self.JobListing" />
+          <EntitySet Name="JobTechnologies" EntityType="Self.JobTechnology" />
+          <FunctionImport Name="getJobDetails" ReturnType="Collection(InterviewBotModel.getJobDetails_Result)">
+            <Parameter Name="JobTechnology" Mode="In" Type="String" />
+            <Parameter Name="JobCategory" Mode="In" Type="String" />
+            <Parameter Name="Experience" Mode="In" Type="Int32" />
+            <Parameter Name="ErrorMessage" Mode="InOut" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="InsertUserDetails">
+            <Parameter Name="UserID" Mode="In" Type="Int64" />
+            <Parameter Name="ChannelID" Mode="In" Type="Int64" />
+            <Parameter Name="Username" Mode="In" Type="String" />
+            <Parameter Name="Experience" Mode="In" Type="Int32" />
+            <Parameter Name="CGPA" Mode="In" Type="String" />
+            <Parameter Name="ExpertiseInTechnology" Mode="In" Type="String" />
+            <Parameter Name="CurrentCompany" Mode="In" Type="String" />
+            <Parameter Name="Resume" Mode="In" Type="Binary" />
+            <Parameter Name="userDetails" Mode="InOut" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="InsertUserJobMapping">
+            <Parameter Name="UserDetails" Mode="In" Type="Int64" />
+            <Parameter Name="JobListings" Mode="In" Type="Int64" />
+            <Parameter Name="InterviewScheduledTime" Mode="In" Type="DateTime" />
+            <Parameter Name="PointofContact" Mode="In" Type="String" />
+            <Parameter Name="userJobMapping" Mode="InOut" Type="Int32" />
+            <Parameter Name="errorMessage" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="UpdateStatusForCancelledApplication">
+            <Parameter Name="UserJobMapping" Mode="In" Type="Int64" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="getJobDetails_Result">
+          <Property Type="Int64" Name="JobListings" Nullable="false" />
+          <Property Type="Int64" Name="JobID" Nullable="false" />
+          <Property Type="Int32" Name="Experience" Nullable="true" />
+          <Property Type="String" Name="CostToCompany" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="JobCategory" Nullable="false" MaxLength="500" />
+          <Property Type="String" Name="JobTechnology" Nullable="false" MaxLength="500" />
+          <Property Type="String" Name="StandardTitle" Nullable="false" MaxLength="500" />
+          <Property Type="String" Name="Location" Nullable="true" MaxLength="500" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="200" />
+          <Property Type="String" Name="EmploymentType" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="JobSummary" Nullable="true" />
+          <Property Type="Binary" Name="JobDescription" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="InterviewBotModelStoreContainer" CdmEntityContainer="InterviewBotEntities">
+          <EntitySetMapping Name="UserJobMappings">
+            <EntityTypeMapping TypeName="InterviewBotModel.UserJobMapping">
+              <MappingFragment StoreEntitySet="UserJobMapping">
+                <ScalarProperty Name="UserJobMappingID" ColumnName="UserJobMappingID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="JobListings" ColumnName="JobListings" />
+                <ScalarProperty Name="InterviewStatus" ColumnName="InterviewStatus" />
+                <ScalarProperty Name="InterviewScheduledDate" ColumnName="InterviewScheduledDate" />
+                <ScalarProperty Name="PointOfContact" ColumnName="PointOfContact" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserProfiles">
+            <EntityTypeMapping TypeName="InterviewBotModel.UserProfile">
+              <MappingFragment StoreEntitySet="UserProfile">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserChannelId" ColumnName="UserChannelId" />
+                <ScalarProperty Name="ChannelId" ColumnName="ChannelId" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Degree" ColumnName="Degree" />
+                <ScalarProperty Name="CGPA" ColumnName="CGPA" />
+                <ScalarProperty Name="ExpertiseInTechnology" ColumnName="ExpertiseInTechnology" />
+                <ScalarProperty Name="CurrentCompany" ColumnName="CurrentCompany" />
+                <ScalarProperty Name="Experience" ColumnName="Experience" />
+                <ScalarProperty Name="Resume" ColumnName="Resume" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JobCategories">
+            <EntityTypeMapping TypeName="InterviewBotModel.JobCategory">
+              <MappingFragment StoreEntitySet="JobCategory">
+                <ScalarProperty Name="JobCategory1" ColumnName="JobCategory" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JobListings">
+            <EntityTypeMapping TypeName="InterviewBotModel.JobListing">
+              <MappingFragment StoreEntitySet="JobListings">
+                <ScalarProperty Name="JobListings" ColumnName="JobListings" />
+                <ScalarProperty Name="JobID" ColumnName="JobID" />
+                <ScalarProperty Name="Experience" ColumnName="Experience" />
+                <ScalarProperty Name="CostToCompany" ColumnName="CostToCompany" />
+                <ScalarProperty Name="JobCategory" ColumnName="JobCategory" />
+                <ScalarProperty Name="JobTechnology" ColumnName="JobTechnology" />
+                <ScalarProperty Name="StandardTitle" ColumnName="StandardTitle" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="EmploymentType" ColumnName="EmploymentType" />
+                <ScalarProperty Name="JobSummary" ColumnName="JobSummary" />
+                <ScalarProperty Name="JobDescription" ColumnName="JobDescription" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JobTechnologies">
+            <EntityTypeMapping TypeName="InterviewBotModel.JobTechnology">
+              <MappingFragment StoreEntitySet="JobTechnology">
+                <ScalarProperty Name="JobTechnology1" ColumnName="JobTechnology" />
+                <ScalarProperty Name="TechnologyName" ColumnName="TechnologyName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="getJobDetails" FunctionName="InterviewBotModel.Store.getJobDetails">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="InterviewBotModel.getJobDetails_Result">
+                <ScalarProperty Name="JobListings" ColumnName="JobListings" />
+                <ScalarProperty Name="JobID" ColumnName="JobID" />
+                <ScalarProperty Name="Experience" ColumnName="Experience" />
+                <ScalarProperty Name="CostToCompany" ColumnName="CostToCompany" />
+                <ScalarProperty Name="JobCategory" ColumnName="JobCategory" />
+                <ScalarProperty Name="JobTechnology" ColumnName="JobTechnology" />
+                <ScalarProperty Name="StandardTitle" ColumnName="StandardTitle" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="EmploymentType" ColumnName="EmploymentType" />
+                <ScalarProperty Name="JobSummary" ColumnName="JobSummary" />
+                <ScalarProperty Name="JobDescription" ColumnName="JobDescription" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="InsertUserDetails" FunctionName="InterviewBotModel.Store.InsertUserDetails" />
+          <FunctionImportMapping FunctionImportName="InsertUserJobMapping" FunctionName="InterviewBotModel.Store.InsertUserJobMapping" />
+          <FunctionImportMapping FunctionImportName="UpdateStatusForCancelledApplication" FunctionName="InterviewBotModel.Store.UpdateStatusForCancelledApplication" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
