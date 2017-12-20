@@ -14,6 +14,8 @@ using System.Net.Http;
 using System.IO;
 using System.Net;
 using Microsoft.Bot.Builder.Luis.Models;
+using Microsoft.Azure.Search;
+using Microsoft.Azure.Search.Models;
 
 namespace PromptDialogs.Dialogs
 {
@@ -21,6 +23,9 @@ namespace PromptDialogs.Dialogs
     [Serializable]
     public class RootDialog : IDialog<IMessageActivity>
     {
+        private static string contentIndex = "azureblob";
+        private double SCORE_THRESHOLD = 70.0;
+
         public  Task StartAsync(IDialogContext context)
         {
             context.Wait(MessageReceivedAsync);
@@ -254,7 +259,9 @@ namespace PromptDialogs.Dialogs
             container.CreateIfNotExists();
             //setting permissions 
             container.SetPermissions(new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
+
             // Retrieve reference to a blob named BlobName.
+            BlobName += ".pdf";
             CloudBlockBlob blockBlob = container.GetBlockBlobReference(BlobName);
             using (var stream = new MemoryStream(data, writable: false))
             {
@@ -263,10 +270,23 @@ namespace PromptDialogs.Dialogs
             
         }
 
+        private static SearchServiceClient CreateSearchServiceClient()
+        {
+            string searchServiceName = CloudConfigurationManager.GetSetting("SearchServiceName");// configuration["SearchServiceName"];
+            string adminApiKey = CloudConfigurationManager.GetSetting("SearchServiceAdminApiKey"); //configuration["SearchServiceAdminApiKey"];
+
+            SearchServiceClient serviceClient = new SearchServiceClient(searchServiceName, new SearchCredentials(adminApiKey));
+            return serviceClient;
+        }
+
         private List<Attachment> getHerocard(IDialogContext cntxt,string type)
         {
+            SearchServiceClient searchServiceClient = CreateSearchServiceClient();
+            ISearchIndexClient searchIndexClient = searchServiceClient.Indexes.GetClient(contentIndex);
+            string userID = cntxt.UserData.GetValue<UserProfile>("UserInfo").UserID.ToString();
+
             InterviewBotEntities dbcntxt = new InterviewBotEntities();
-            #region RetrieveJobInfoFromDB
+
             List<JobListing> Profiles = new List<JobListing>();
             List<Attachment> attachements = new List<Attachment>();
             UserProfile userDetails = new UserProfile();
@@ -284,7 +304,6 @@ namespace PromptDialogs.Dialogs
                 }
                 if (Profiles != null)
                 {
-
                     foreach (JobListing profile in Profiles)
                     {
 
@@ -303,20 +322,13 @@ namespace PromptDialogs.Dialogs
                         herocd.Text = $"Standard Tilte is {profile.StandardTitle}, {profile.EmploymentType} employement must have minimum of {profile.Experience} and CTC is {profile.CostToCompany} ";
                         herocd.Buttons = new List<CardAction> { cardaction1 };
                         attachements.Add(herocd.ToAttachment());
-
                     }
-
-
-
                 }
-
                 else
                 {
                     return null;
                 }
-
             }
-
             else
             {
                 ApplyForm getdeatils = new ApplyForm();
@@ -324,57 +336,35 @@ namespace PromptDialogs.Dialogs
                 Profiles = (from profile in dbcntxt.JobListings where profile.JobCategory == getdeatils.JobCategory.ToString() select profile).Distinct().ToList();
                 if (Profiles != null)
                 {
-
-                    foreach (JobListing profile in Profiles)
+                    bool flag = false;
+                    foreach (JobListing profile in Profiles) //test for all applicable profiles
                     {
-                        #region ByteConverstion    
-                        string dirPath = @"E:\temp\";
-                        string Filpath = dirPath + string.Format(@"{0}.txt", DateTime.Now.Ticks);
-                        FileInfo fi = new FileInfo(Filpath);
-                        DirectoryInfo di = new DirectoryInfo(dirPath);
-                        // Byte[] bytData = (byte[]) profile.JobSummary;
-
-                        if (!di.Exists)
+                        var searchText = profile.JobSummary; //search using jobsummary text
+                        DocumentSearchResult results;
+                        results = searchIndexClient.Documents.Search(searchText);//, parameters);
+                        foreach (SearchResult result in results.Results) //iterate over all matching resumes
                         {
-                            di.Create();
+                            if(result.Document["metadata_storage_name"].ToString().Contains(userID) && (result.Score*100) > SCORE_THRESHOLD) //if current user's resume is present and score is ok
+                            {
+                                flag = true;
+                                break;
+                                //give this job as option
+                            }
                         }
-
-                        if (!fi.Exists)
+                        if (flag)
                         {
-                            fi.Create().Dispose();
+                            CardAction cardaction1 = new CardAction()
+                            {
+                                Title = "Apply Job",
+                                Value = profile.JobID,
+                                Type = ActionTypes.ImBack
+                            };
+
+                            HeroCard herocd = new HeroCard();
+                            herocd.Text = $"Standard Tilte is {profile.StandardTitle}, {profile.EmploymentType} employement must have minimum of {profile.Experience} and CTC is {profile.CostToCompany} for more deatils click on Job Details button ";
+                            herocd.Buttons = new List<CardAction> { cardaction1 }; //, cardaction2 };
+                            attachements.Add(herocd.ToAttachment());
                         }
-
-                        TextWriter txt = new StreamWriter(Filpath);
-                        txt.Write(profile.JobSummary);
-                        txt.Close();
-                        //FileStream fs = new System.IO.FileStream(Filpath, FileMode.OpenOrCreate, FileAccess.Write);
-                        //StreamWriter br = new StreamWriter(Filpath);
-                        //br.Write(profile.JobSummary);
-                        //fs.Dispose();
-
-                        #endregion     // converst byte[] format to Char 
-
-                        #region cardActions
-                        CardAction cardaction1 = new CardAction()
-                        {
-                            Title = "Apply Job",
-                            Value = profile.JobID,
-                            Type = ActionTypes.ImBack
-                        };
-
-                        CardAction cardaction2 = new CardAction()
-                        {
-                            Title = profile.JobID + " Job Detail",
-                            Value = Filpath,
-                            Type = "downloadFile", // openUrl
-                        };
-                        #endregion
-
-                        HeroCard herocd = new HeroCard();
-                        herocd.Text = $"Standard Tilte is {profile.StandardTitle}, {profile.EmploymentType} employement must have minimum of {profile.Experience} and CTC is {profile.CostToCompany} for more deatils click on Job Details button ";
-                        herocd.Buttons = new List<CardAction> { cardaction1, cardaction2 };
-                        attachements.Add(herocd.ToAttachment());
-
                     }
 
 
@@ -388,7 +378,7 @@ namespace PromptDialogs.Dialogs
             }
 
             return attachements;
-            #endregion
+            
         }
     }
 }
