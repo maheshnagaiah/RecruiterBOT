@@ -24,7 +24,7 @@ namespace PromptDialogs.Dialogs
     public class RootDialog : IDialog<IMessageActivity>
     {
         private static string contentIndex = "azureblob";
-        private double SCORE_THRESHOLD = 70.0;
+        private double SCORE_THRESHOLD = 1.0;
 
         public  Task StartAsync(IDialogContext context)
         {
@@ -366,19 +366,13 @@ namespace PromptDialogs.Dialogs
                             attachements.Add(herocd.ToAttachment());
                         }
                     }
-
-
-
                 }
-
                 else
                 {
                     return null;
                 }
             }
-
             return attachements;
-            
         }
     }
 }
