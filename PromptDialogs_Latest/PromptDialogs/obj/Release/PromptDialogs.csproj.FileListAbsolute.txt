@@ -1,0 +1,223 @@
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Bot Application.dll.config
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Bot Application.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Bot Application.pdb
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Autofac.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Chronic.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\EntityFramework.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\EntityFramework.SqlServer.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.Autofac.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Connector.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Edm.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Data.OData.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Services.Client.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Rest.ClientRuntime.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Newtonsoft.Json.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Net.Http.Formatting.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Spatial.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Web.Http.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Web.Http.WebHost.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Autofac.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\EntityFramework.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\EntityFramework.SqlServer.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Azure.KeyVault.Core.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.Autofac.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Connector.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Edm.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Data.OData.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Services.Client.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Newtonsoft.Json.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Net.Http.Formatting.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Spatial.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Web.Http.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\System.Web.Http.WebHost.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\cs\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\de\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\es\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\it\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\de\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\es\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\it\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\de\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\es\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\fr\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\it\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ja\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ko\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\ru\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hans\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\zh-Hant\System.Spatial.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\obj\Release\Bot Application.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\obj\Release\Bot Application.pdb
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Logging.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Logging.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\it\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\nl\Microsoft.Bot.Builder.resources.dll
+E:\Courses\Bot Framework - getting started\BOT FRAMEWORK\BOT EXAMPLES\PromptDialogs\PromptDialogs\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Bot Application.dll.config
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Bot Application.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Bot Application.pdb
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Autofac.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Chronic.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\EntityFramework.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\EntityFramework.SqlServer.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Azure.Search.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Connector.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Edm.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Data.OData.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Services.Client.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Logging.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Tokens.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Rest.ClientRuntime.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Spatial.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Storage.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Newtonsoft.Json.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Net.Http.Formatting.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Spatial.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Web.Http.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Web.Http.WebHost.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Autofac.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\EntityFramework.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\EntityFramework.SqlServer.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Azure.Search.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Bot.Connector.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Edm.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Data.OData.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Data.Services.Client.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Logging.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.IdentityModel.Tokens.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Rest.ClientRuntime.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.Spatial.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Microsoft.WindowsAzure.Storage.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\Newtonsoft.Json.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Net.Http.Formatting.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Spatial.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Web.Http.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\System.Web.Http.WebHost.xml
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\de\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\es\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\it\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\de\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\es\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\it\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\de\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\es\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fr\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\it\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ja\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ko\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ru\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hans\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hant\Microsoft.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\de\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\es\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\fr\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\it\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ja\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ko\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\ru\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hans\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\bin\zh-Hant\System.Spatial.resources.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\obj\Release\PromptDialogs.csproj.CoreCompileInputs.cache
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\obj\Release\Bot Application.dll
+D:\DevHack\Demo\PromptDialogs (2)(1)\PromptDialogs\PromptDialogs\obj\Release\Bot Application.pdb
